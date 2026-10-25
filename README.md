@@ -1,4 +1,4 @@
-# Web-Based Login Interface
+Web-Based Login Interface
 
 **Project type:** Individual project  
 **Technologies:** HTML5, CSS3, JavaScript  
@@ -18,8 +18,6 @@
 - `index.html` — page structure and form elements
 - `style.css` — layout, colours, typography, and responsive styles
 - `script.js` — password visibility control and form validation
-- `assets/` — optional project assets
-- `screenshots/` — place screenshots of your completed project here
 
 ## How to run
 
