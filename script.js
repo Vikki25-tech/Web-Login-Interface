@@ -48,7 +48,7 @@ loginForm.addEventListener("submit", (event) => {
     passwordInput.setAttribute("aria-invalid", "true");
     isValid = false;
   } else if (passwordInput.value.length < 6) {
-    passwordError.textContent = "For this demo, use at least 6 characters.";
+    passwordError.textContent = "Password should be at least 6 characters.";
     passwordInput.setAttribute("aria-invalid", "true");
     isValid = false;
   }
@@ -60,6 +60,8 @@ loginForm.addEventListener("submit", (event) => {
   }
 
   // This is a frontend demonstration only. No credentials are sent or stored.
-  formMessage.textContent = "Demo validation successful. No account was authenticated.";
+  formMessage.textContent = "Successfully signed in";
   formMessage.classList.add("success");
+
+  window.location.href = "dashboard.html"
 });
